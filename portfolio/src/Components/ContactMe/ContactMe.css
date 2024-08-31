@@ -1,0 +1,16 @@
+.contact-btn {
+    background: rgb(7, 0, 153);
+    background: linear-gradient(132deg, rgba(7, 0, 153, 1) 0%, rgba(120, 90, 235, 1) 45%, rgba(220, 192, 253, 1) 100%);
+    color: white;
+    border-radius: 30px;
+    border: none;
+    padding: 1%;
+    margin-top: 1%;
+    margin-left: -5%;
+    cursor: pointer;
+    transition: background 0.6s ease;
+}
+
+.contact-btn:hover {
+    background: linear-gradient(132deg, rgba(7, 0, 153, 1) 0%, rgba(100, 70, 200, 1) 45%, rgba(180, 162, 250, 1) 100%);
+}

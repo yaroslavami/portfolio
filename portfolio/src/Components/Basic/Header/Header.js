@@ -1,6 +1,7 @@
 import './Header.css';
 import { Link } from 'react-router-dom';
 import Logo from '../../../Assets/Images/Logo.png';
+import ContactMe from '../../ContactMe/ContactMe.js';
 
 function Header() {
     return (
@@ -11,7 +12,7 @@ function Header() {
                 <li><Link to='/'>Projects</Link></li>
                 <li><Link to='/'>Blog</Link></li>
             </ul>
-            <button className='contact-btn'>Contact Me</button>
+            <ContactMe />
         </div>
     )
 }

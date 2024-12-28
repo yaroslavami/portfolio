@@ -1,6 +1,7 @@
 import './App.css';
-import { Route, Routes} from 'react-router-dom';
+// import { Route, Routes} from 'react-router-dom';
 import Header from './Components/Basic/Header/Header';
+import Footer from './Components/Basic/Footer/Footer';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       {/* <Routes>
         <Route path="/" element={<Header/>} />
       </Routes> */}
+      <Footer/>
     </div>
   );
 }

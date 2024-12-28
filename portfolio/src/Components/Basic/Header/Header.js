@@ -1,7 +1,6 @@
 import './Header.css';
 import { Link } from 'react-router-dom';
 import Logo from '../../../Assets/Images/Logo.png';
-import ContactMe from '../../Buttons/ContactMe/ContactMe.js';
 
 function Header() {
     return (
@@ -12,7 +11,6 @@ function Header() {
                 <li><Link to='/'>Projects</Link></li>
                 <li><Link to='/'>Blog</Link></li>
             </ul>
-            <ContactMe />
         </div>
     )
 }

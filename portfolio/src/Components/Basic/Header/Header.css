@@ -2,10 +2,11 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    background-color: rgba(34, 16, 59, 0.835)
 }
 .header img{
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 80px;
 }
 .header ul{
     display: flex;

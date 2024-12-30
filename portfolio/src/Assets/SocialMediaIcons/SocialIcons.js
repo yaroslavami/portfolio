@@ -6,9 +6,9 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 const SocialMediaLinks = () => {
     return (
-        <Box display="flex" justifyContent="center" gap={2}>
+        <Box display="flex"  gap={2}>
             <IconButton
-                color="primary"
+                sx={{ color: 'white'}}
                 aria-label="Instagram"
                 href="https://www.instagram.com/yourprofile"
                 target="_blank"
@@ -17,7 +17,7 @@ const SocialMediaLinks = () => {
                 <InstagramIcon />
             </IconButton>
             <IconButton
-                color="primary"
+                sx={{ color: 'white'}}
                 aria-label="LinkedIn"
                 href="https://www.linkedin.com/in/yaroslava-mishchenko-01373127a/"
                 target="_blank"
@@ -26,7 +26,7 @@ const SocialMediaLinks = () => {
                 <LinkedInIcon />
             </IconButton>
             <IconButton
-                color="primary"
+                sx={{ color: 'white'}}
                 aria-label="GitHub"
                 href="https://github.com/yaroslavami"
                 target="_blank"

@@ -6,6 +6,7 @@ function Footer() {
         <div className='footer'>
             <h3>Contact</h3>
             <p>Looking to enhance your customer experience through an optimized website? Or do you have an exciting project in mind? Let’s connect and bring your vision to life!</p>
+            <p className='email'>yaroslavamishsce@gmail.com</p>
             <SocialMediaLinks />
             <p>© {new Date().getFullYear()}</p>
         </div>

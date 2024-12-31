@@ -10,7 +10,7 @@ const SocialMediaLinks = () => {
             <IconButton
                 sx={{ color: 'white'}}
                 aria-label="Instagram"
-                href="https://www.instagram.com/yourprofile"
+                href="https://www.instagram.com/yaroslava_webdev/"
                 target="_blank"
                 rel="noopener noreferrer"
             >

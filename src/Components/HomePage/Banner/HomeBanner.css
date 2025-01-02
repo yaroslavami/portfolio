@@ -1,0 +1,118 @@
+.home-banner{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    padding: 2% 20%;
+}
+
+.intro, .description{
+    display:flex;
+    align-items: center;
+}
+.intro{
+    justify-content: center;
+}
+
+.intro img {
+    padding:7% 7% 7% 9%;
+    height: 260px;
+    border-radius: 50%;
+    background: rgb(221, 191, 248);
+    background: radial-gradient(circle, rgba(221, 191, 248, 1) 6%, rgba(118, 60, 172, 0.66) 30%, #210e3aee 63%);
+    box-shadow: 4px 4px 6px 6px #210e3adb;
+}
+
+.intro h5{
+    font-size: 15px;
+    font-weight: 200;
+    padding-bottom: 50px;
+}
+
+.home-banner p{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.intro p{
+    color: rgb(255, 114, 222);
+}
+
+.intro h2{
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.baby-text{
+    font-size: 12px !important;
+}
+
+.description{
+    flex-direction: column;
+    padding: 2%;
+    text-align: left;
+}
+
+.description h2 {
+    padding-top: 6%;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.colored-text{
+    color: rgb(255, 114, 222);
+    padding-bottom: 4%;
+}
+
+.description p:last-child {
+    padding: 0 8%;
+}
+
+@media (max-width: 768px) {
+    .home-banner {
+        padding: 5% 10%;
+    }
+
+    .intro img {
+        height: 200px;
+    }
+
+    .intro h2 {
+        font-size: 30px;
+    }
+
+    .description h2 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-banner {
+        padding: 5%;
+        flex-direction: column;
+    }
+
+    .intro img {
+        height: 180px;
+        margin-bottom: 10px;
+    }
+
+    .intro h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .description h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .home-banner p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .description p:last-child {
+        padding: 0 5%;
+        text-align: center;
+    }
+}

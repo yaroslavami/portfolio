@@ -1,6 +1,8 @@
 body{
     background-color: #1A0B2E;
+    color:white;
+}
+*{
     margin: 0;
     padding: 0;
-    color:white;
 }

@@ -8,9 +8,14 @@
 
 .footer h3{
     font-weight: 400;
-    font-size: 20px;
+    font-size: 17px;
+    padding: 1%;
 }
 
+.footer p {
+    font-size: 13px;
+    padding: 1%;
+}
 .email {
     font-weight: 500;
     color: rgb(255, 114, 222);

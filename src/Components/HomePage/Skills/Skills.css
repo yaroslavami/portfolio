@@ -1,0 +1,40 @@
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.bigger-text {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.smaller-text {
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    color: #c8c8c8;
+}
+
+.skill-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    gap: 20px;
+}
+
+.skill-items svg {
+    background-color: rgba(255, 255, 255, 0.044);
+    padding: 10px;
+    border-radius: 50%;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.skill-items svg:hover {
+    transform: scale(1.2);
+}

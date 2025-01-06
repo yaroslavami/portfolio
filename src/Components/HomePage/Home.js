@@ -1,6 +1,7 @@
 import HomeBanner from "./Banner/HomeBanner";
 import Work from './WorkExperience/Work';
 import Skills from './Skills/Skills';
+import ProjectGrid from './ExampleProject/Example';
 
 const Home = () => {
     return (
@@ -8,6 +9,7 @@ const Home = () => {
             <HomeBanner />
             <Work />
             <Skills />
+            <ProjectGrid/>
         </div>
     )
 };

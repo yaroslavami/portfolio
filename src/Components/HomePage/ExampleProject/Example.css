@@ -1,0 +1,80 @@
+/* General container styling for the project grid */
+.project-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 10%;
+    border-radius: 20px;
+    background: rgb(199, 137, 255);
+    background: radial-gradient(circle, rgba(199, 137, 255, 1) 0%, rgba(26, 11, 46, 1) 42%);
+}
+
+/* Styling for each project card */
+.project-card {
+    background: rgba(0, 0, 0, 0.3);
+    /* 30% transparent black overlay */
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    /* Lift on hover */
+}
+
+/* Header for featured tag and project title */
+.project-header {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.featured-tag {
+    font-size: 12px;
+    color: #ff79c6;
+    /* Highlight color for 'Featured Project' */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.project-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+/* Description text */
+.project-description {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Preview image styling */
+.project-preview img {
+    width: auto;
+    height: 300px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Link icons for GitHub and demo */
+.project-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.project-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.project-links a:hover {
+    color: #ff79c6;
+}

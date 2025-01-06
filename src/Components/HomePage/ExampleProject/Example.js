@@ -33,15 +33,15 @@ const ProjectGrid = () => {
             title: "Travello",
             description: "A travel planning web app for organizing trips, finding attractions, and sharing itineraries with friends.",
             image: Travello,
-            githubLink: "https://github.com/yourusername/travello",
-            demoLink: "https://travello-demo.com",
+            githubLink: "https://github.com/yaroslavami/travello",
+            demoLink: "https://travello-l64z.onrender.com/",
         },
         {
             title: "Snake Game",
             description: "A modern take on the classic Snake game with a redesigned UI and interactive gameplay.",
             image: Snake,
-            githubLink: "https://github.com/yourusername/snake-game",
-            demoLink: "https://snake-game-demo.com",
+            githubLink: "https://github.com/yaroslavami/webSnake",
+            demoLink: "https://yaroslavami.github.io/webSnake/",
         },
     ];
 

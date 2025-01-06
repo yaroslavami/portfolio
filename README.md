@@ -12,11 +12,10 @@ Welcome to my portfolio website! This site showcases my journey, skills, and pro
 
 1. [Features](#features)
 2. [Technologies Used](#technologies-used)
-3. [Getting Started](#getting-started)
-4. [Portfolio Sections](#portfolio-sections)
-5. [Project Grid](#project-grid)
-6. [Responsive Design](#responsive-design)
-7. [Contact](#contact)
+3. [Portfolio Sections](#portfolio-sections)
+4. [Project Grid](#project-grid)
+5. [Responsive Design](#responsive-design)
+6. [Contact](#contact)
 
 ---
 
@@ -40,6 +39,8 @@ Welcome to my portfolio website! This site showcases my journey, skills, and pro
   - Node.js
   - Express
   - Database Integration
+
+---
 
 ## Portfolio Sections
 
@@ -80,7 +81,7 @@ The website is designed to be responsive across various devices:
 - **Large Screens**:  
   Displays project grid with two columns.
 
-- **Medium Screens (500px - 768px)****:  
+- **Medium Screens (500px - 768px)**:  
   Adjusts to a single column for improved usability.
 
 - **Small Screens (<500px)**:  
@@ -95,6 +96,50 @@ For any inquiries or collaborations, feel free to reach out:
 - **Email**: yaroslavamishsce@gmail.com 
 - **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/yaroslava-mishchenko-01373127a/)  
 - **GitHub**: [GitHub Profile](https://github.com/yaroslavami)
+- **Instagram**: [Instagram Profile](https://www.instagram.com/yaroslava_webdev/)
 
 Thank you for visiting my portfolio!
 
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## Acknowledgments
+
+- **Ampli Teen Accelerator**: For providing the platform and resources to learn and grow as a developer.
+- **Material UI**: For the amazing UI components that made styling easier and more efficient.
+- **React.js**: For the powerful library that made building this portfolio a breeze.
+
+---
+
+## Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## Show Your Support
+
+Give a ⭐️ if you like this project!
+
+---
+
+## Author
+
+👤 **Yaroslava Mishchenko**
+
+- GitHub: [@yaroslavami](https://github.com/yaroslavami)  
+- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/yaroslava-mishchenko-01373127a/)  
+- Instagram: [Instagram Profile](https://www.instagram.com/yaroslava_webdev/)  
+
+Thank you for checking out my portfolio! I hope you find it informative and inspiring.

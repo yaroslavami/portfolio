@@ -12,7 +12,6 @@
 /* Styling for each project card */
 .project-card {
     background: rgba(0, 0, 0, 0.3);
-    /* 30% transparent black overlay */
     border-radius: 15px;
     padding: 20px;
     color: white;
@@ -54,7 +53,7 @@
 
 /* Preview image styling */
 .project-preview img {
-    width: auto;
+    max-width: 300px;
     height: 300px;
     border-radius: 10px;
     margin: 0 auto;
@@ -77,4 +76,48 @@
 
 .project-links a:hover {
     color: #ff79c6;
+}
+
+/* Responsive styles for small screens (500px - 768px) */
+@media (max-width: 768px) and (min-width: 500px) {
+    .project-grid {
+        grid-template-columns: 1fr;
+        padding: 5%;
+    }
+
+    .project-preview img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .project-title {
+        font-size: 18px;
+    }
+
+    .project-description {
+        font-size: 14px;
+    }
+
+    .project-links a {
+        font-size: 18px;
+    }
+}
+
+/* Further Responsive styles for very small screens (<500px) */
+@media (max-width: 499px) {
+    .project-card {
+        padding: 15px;
+    }
+
+    .project-title {
+        font-size: 16px;
+    }
+
+    .project-description {
+        font-size: 12px;
+    }
+
+    .project-links a {
+        font-size: 16px;
+    }
 }

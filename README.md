@@ -10,10 +10,9 @@ Welcome to my portfolio website! This site showcases my journey, skills, and pro
 
 1. [Features](#features)
 2. [Technologies Used](#technologies-used)
-3. [Portfolio Sections](#portfolio-sections)
-4. [Project Grid](#project-grid)
-5. [Responsive Design](#responsive-design)
-6. [Contact](#contact)
+3. [Project Grid](#project-grid)
+4. [Responsive Design](#responsive-design)
+5. [Contact](#contact)
 
 ---
 
@@ -37,22 +36,6 @@ Welcome to my portfolio website! This site showcases my journey, skills, and pro
   - Node.js
   - Express
   - Database Integration
-
----
-
-## Portfolio Sections
-
-- **About Me**:  
-  Brief introduction, background, and key skills.
-
-- **Projects**:  
-  Display of various development projects with detailed information, images, and links.
-
-- **Resume**:  
-  A downloadable resume highlighting professional achievements and experience.
-
-- **Contact**:  
-  Forms and links for potential clients or employers to get in touch.
 
 ---
 

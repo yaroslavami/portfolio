@@ -18,7 +18,7 @@
     height: 260px;
     border-radius: 50%;
     background: rgb(221, 191, 248);
-    background: radial-gradient(circle, rgba(221, 191, 248, 1) 6%, rgba(118, 60, 172, 0.66) 30%, #210e3aee 63%);
+    background: radial-gradient(circle, rgba(118, 60, 172, 0.66) 0%, #210e3aee 56%);
     box-shadow: 4px 4px 6px 6px #210e3adb;
 }
 

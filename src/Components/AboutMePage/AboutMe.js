@@ -1,7 +1,9 @@
+import Banner from './MainSection/AboutMeBanner/AboutMeBanner';
+
 const AboutMe = () => {
     return (
         <div>
-            <h1>My Name is Yaro</h1>
+            <Banner/>
         </div>
     )
 };

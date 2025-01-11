@@ -1,3 +1,4 @@
+"start": "serve -s build -l 10000",
 # Portfolio Website
 
 ## Overview

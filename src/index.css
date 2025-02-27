@@ -1,3 +1,22 @@
 body{
     font-family: "Roboto", serif;
 }
+body::-webkit-scrollbar {
+    height: 8px;
+    width: 7px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #222;
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #ff70c1;
+    border-radius: 10px;
+    transition: background 0.3s ease-in-out;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #ff439f;
+}

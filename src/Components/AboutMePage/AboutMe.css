@@ -4,7 +4,7 @@
     justify-content: center;
     gap: 20px;
     text-align: center;
-    background-image: url('../../../../Assets/Images/binary.png');
+    background-image: url('../../Assets/Images/binary.png');
     background-size: contain;
     height: 630px;
     opacity: 1;
@@ -75,7 +75,7 @@
     margin-right: auto;
 }
 
-.gallery h3{
+.gallery-title{
     font-size: 24px;
     padding: 2%
 }

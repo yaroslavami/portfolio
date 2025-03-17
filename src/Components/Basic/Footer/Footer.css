@@ -1,7 +1,7 @@
 .footer{
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: flex-start;
     padding: 4% 30% 3% 20%;
     font-weight: 300;
 }
@@ -19,4 +19,27 @@
 .email {
     font-weight: 500;
     color: rgb(255, 114, 222);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer {
+        padding: 10% 15%;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 13% 7%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer h3 {
+        font-size: 15px;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
 }

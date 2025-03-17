@@ -21,3 +21,52 @@
     text-decoration: none;
     color: antiquewhite; 
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 5%;
+    }
+
+    .header ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .header li {
+        min-width: auto;
+    }
+
+    .header a {
+        padding: 6px 10px;
+        font-size: 0.9rem;
+    }
+
+    .header img {
+        width: 75px;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding: 10px;
+    }
+
+    .header img {
+        width: 65px;
+        height: auto;
+    }
+
+    .header ul {
+        gap: 5px;
+    }
+
+    .header a {
+        font-size: 0.85rem;
+        padding: 5px 8px;
+    }
+}

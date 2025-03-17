@@ -1,0 +1,118 @@
+.name-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    background-image: url('../../Assets/Images/binary.png');
+    background-size: contain;
+    height: 630px;
+    opacity: 1;
+    animation: fadeOut 4s ease-in-out forwards;
+    margin-bottom: 60px;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+    color: #d2d2d2;
+}
+
+.arrow {
+    font-size: 2rem;
+    color: #ff70c1;
+}
+
+.about-me-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    /* Reduced padding */
+    text-align: center;
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out 0.1s forwards;
+    margin-bottom: 60px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.growth-story h3 {
+    color: rgb(255, 201, 242);
+    font-size: 1.5rem;
+    padding-left: 4%;
+    margin: 30px 0;
+    text-align: left;
+}
+
+.highlighted-text {
+    color: rgb(255, 114, 222);
+    font-weight: bold;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 40px 0;
+    position: relative;
+}
+
+.timeline-item {
+    position: relative;
+    max-width: 800px;
+    padding: 20px;
+    border-left: 4px solid rgb(255, 114, 222);
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
+
+.timeline-year {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: rgb(255, 201, 242);
+    margin-bottom: 10px;
+}
+
+.timeline-item p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #d2d2d2;
+}
+
+@media (max-width: 768px) {
+    .timeline {
+        width: 90%;
+    }
+
+    .timeline-item {
+        padding-left: 10px;
+    }
+
+    .timeline-year {
+        font-size: 1.5rem;
+    }
+}

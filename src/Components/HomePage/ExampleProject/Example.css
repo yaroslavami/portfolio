@@ -5,18 +5,22 @@
     gap: 30px;
     padding: 10%;
     border-radius: 20px;
-    background: rgb(199, 137, 255);
     background: radial-gradient(circle, rgba(199, 137, 255, 1) 0%, rgba(26, 11, 46, 1) 42%);
 }
 
 /* Styling for each project card */
 .project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background: rgba(0, 0, 0, 0.3);
     border-radius: 15px;
     padding: 20px;
+    margin-bottom: 5px;
     color: white;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease-in-out;
+    min-height: 100%;
 }
 
 .project-card:hover {
@@ -33,9 +37,9 @@
 .featured-tag {
     font-size: 12px;
     color: #ff79c6;
-    /* Highlight color for 'Featured Project' */
     text-transform: uppercase;
     letter-spacing: 1px;
+
 }
 
 .project-title {
@@ -48,23 +52,31 @@
 .project-description {
     font-size: 16px;
     line-height: 1.5;
-    margin-bottom: 20px;
+    /* flex-grow: 1; */
 }
 
-/* Preview image styling */
-.project-preview img {
-    max-width: 300px;
+/* Fixed size for image container */
+.project-preview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 300px;
-    border-radius: 10px;
-    margin: 0 auto;
-    display: block;
+    overflow: hidden;
+}
+
+/* Image styling to maintain aspect ratio */
+.project-preview img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 }
 
 /* Link icons for GitHub and demo */
 .project-links {
     display: flex;
     justify-content: space-between;
-    margin-top: 15px;
+    margin-top: 10px;
+
 }
 
 .project-links a {
@@ -78,16 +90,20 @@
     color: #ff79c6;
 }
 
-/* Responsive styles for small screens (500px - 768px) */
-@media (max-width: 768px) and (min-width: 500px) {
+/* Responsive styles for tablets (500px - 768px) */
+@media (max-width: 768px) {
     .project-grid {
         grid-template-columns: 1fr;
-        padding: 5%;
+        padding: 8%;
     }
 
-    .project-preview img {
-        max-width: 100%;
-        height: auto;
+    .project-card {
+        padding: 18px;
+        min-height: 450px;
+    }
+
+    .project-preview {
+        height: 250px;
     }
 
     .project-title {
@@ -103,18 +119,36 @@
     }
 }
 
-/* Further Responsive styles for very small screens (<500px) */
+/* Responsive styles for mobile screens (<500px) */
 @media (max-width: 499px) {
+    .project-grid {
+        display: flex;
+        flex-direction: column;
+    }
+    
     .project-card {
+        flex: 1 1 auto;
         padding: 15px;
+        min-height: 450px;
     }
 
     .project-title {
         font-size: 16px;
+        text-align: center;
     }
 
     .project-description {
-        font-size: 12px;
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .project-preview {
+        height: 220px;
+    }
+
+    .project-links {
+        justify-content: center;
+        gap: 15px;
     }
 
     .project-links a {

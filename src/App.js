@@ -1,21 +1,26 @@
 import './App.css';
-import { Route, Routes} from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
+
 import Header from './Components/Basic/Header/Header';
 import Footer from './Components/Basic/Footer/Footer';
-import Home from './Components/HomePage/Home.js';
-import AboutMe from './Components/AboutMePage/AboutMe.js';
+
+import { lazy, Suspense } from 'react';
+
+const Home = lazy(() => import('./Components/HomePage/Home'));
+const AboutMe = lazy(() => import('./Components/AboutMePage/AboutMe'));
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about-me" element={<AboutMe />} />
-      </Routes>
-      <Footer/>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about-me" element={<AboutMe />} />
+        </Routes>
+      </Suspense>
+      <Footer />
     </div>
   );
 }
-
 export default App;

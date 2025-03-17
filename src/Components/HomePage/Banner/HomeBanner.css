@@ -1,52 +1,59 @@
-.home-banner{
-    display:flex;
+.home-banner {
+    display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     padding: 2% 20%;
 }
 
-.intro, .description{
-    display:flex;
+/* Flex alignment */
+.intro,
+.description {
+    display: flex;
     align-items: center;
 }
-.intro{
+
+.intro {
     justify-content: center;
 }
 
+/* Profile Image */
 .intro img {
-    padding:7% 7% 7% 9%;
+    padding: 7% 7% 7% 9%;
     height: 260px;
     border-radius: 50%;
-    background: rgb(221, 191, 248);
     background: radial-gradient(circle, rgba(118, 60, 172, 0.66) 0%, #210e3aee 56%);
     box-shadow: 4px 4px 6px 6px #210e3adb;
+    max-width: 100%;
 }
 
-.intro h5{
+/* Text Styling */
+.intro h5 {
     font-size: 15px;
     font-weight: 200;
     padding-bottom: 50px;
 }
 
-.home-banner p{
+.home-banner p {
     font-size: 18px;
     font-weight: 300;
 }
 
-.intro p{
+.intro p {
     color: rgb(255, 114, 222);
 }
 
-.intro h2{
-    font-size: 50px;
+.intro h2 {
+    font-size: clamp(30px, 5vw, 50px);
     font-weight: 400;
+    text-align: center;
 }
 
-.baby-text{
+.baby-text {
     font-size: 12px !important;
 }
 
-.description{
+/* Description Section */
+.description {
     flex-direction: column;
     padding: 2%;
     text-align: left;
@@ -54,11 +61,11 @@
 
 .description h2 {
     padding-top: 6%;
-    font-size: 40px;
+    font-size: clamp(25px, 4vw, 40px);
     font-weight: 400;
 }
 
-.colored-text{
+.colored-text {
     color: rgb(255, 114, 222);
     padding-bottom: 4%;
 }
@@ -67,28 +74,42 @@
     padding: 0 8%;
 }
 
+/* Medium Screens (Tablets) */
 @media (max-width: 768px) {
     .home-banner {
         padding: 5% 10%;
     }
 
+    .intro {
+        flex-direction: column;
+        text-align: center;
+    }
+
     .intro img {
         height: 200px;
+        padding: 5%;
     }
 
     .intro h2 {
-        font-size: 30px;
+        font-size: clamp(25px, 4vw, 35px);
     }
 
     .description h2 {
-        font-size: 25px;
+        font-size: clamp(20px, 3.5vw, 30px);
+    }
+
+    .description p:last-child {
+        padding: 0 5%;
+        text-align: center;
     }
 }
 
+/* Small Screens (Mobile) */
 @media (max-width: 480px) {
     .home-banner {
         padding: 5%;
         flex-direction: column;
+        text-align: center;
     }
 
     .intro img {
@@ -96,18 +117,14 @@
         margin-bottom: 10px;
     }
 
-    .intro h2 {
-        font-size: 25px;
-        text-align: center;
-    }
-
+    .intro h2,
     .description h2 {
-        font-size: 20px;
+        font-size: clamp(18px, 5vw, 25px);
         text-align: center;
     }
 
     .home-banner p {
-        font-size: 14px;
+        font-size: clamp(14px, 4vw, 16px);
         text-align: center;
     }
 

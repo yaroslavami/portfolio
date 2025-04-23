@@ -1,4 +1,4 @@
-"start": "serve -s build -l 10000",
+"start": "serve -s build -l 10000", --- "start": "react-scripts start",
 # Portfolio Website
 
 ## Overview
